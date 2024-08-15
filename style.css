@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+body {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
+    background-color: cornflowerblue;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+}
+
+/* NAVBAR STYLE */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+nav  > .nav1 .nav2 a:hover {
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.nav1 {
+    margin-left: 1.2rem;
+    padding: 15px;
+}
+
+.nav1 > a {
+    margin-right: 1.2rem;
+    text-decoration: none;
+}
+
+.wrapjudul {
+    width: 180px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#judul1 {
+    text-align: center;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: 400;
+}
+
+#span1 {
+    color: dodgerblue;
+}
+
+.nav2 {
+    margin-right: 1.2rem;
+    padding: 15px;
+}
+
+.nav2 > a {
+    margin-left: 1.2rem;
+    text-decoration: none;
+}
+
+/* navbar end */
+
+/* opening style */
+
+.wrap1 {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.p1 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.p2 {
+    font-weight: 800;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.p3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/*opening style ends*/
+
+/* opening2 style */
+
+.wrap2 {
+    height: 18.8rem;
+    background-image: url(opening2.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p4 {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.p4 > ul, li {
+    list-style: none;
+}
+
+.p4 > a {
+    text-decoration: none;
+}
+
+.span3 {
+    font-weight: 800;
+}
+
+#span2 {
+    color: red;
+}
+
+.img1 {
+    margin-top: 30px;
+}
+
+/* opening2 end */
+
+/* skill bar style */
+
+.wrap3 {
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skillbar {
+    height: 0.7rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    width: 15.5rem;
+    background-color: gray;
+}
+
+.htmlskill {
+    height: 0.7rem;
+    border-radius: 30px;
+    width: 90%;
+    background-color: crimson;
+}
+
+.p5 {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.p6 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* skill bar end */
+
+/* footer style */
+
+.wrapfooter {
+    height: 100px;
+    background-color: black;
+    color: gray;
+}
+
+.pfooter {
+    text-align: center;
+    padding-top: 17px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons > li, a, i {
+    margin: 15px;
+}
+
+/* footer end */
+
+/* responsive */
+
